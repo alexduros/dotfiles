@@ -66,7 +66,7 @@
 [core]
     whitespace = trailing-space,space-before-tab
     editor = vim -f
-    excludesfile = ~/.gitignore
+    excludesfile = ~/.gitignore_global
     pager = less -c
 [rebase]
     autosquash = true
