@@ -7,15 +7,17 @@
 		"Git",
 		"GitGutter",
 		"GoSublime",
-		"Http Requester",
 		"JSON Reindent",
-		"knockdown",
+		"LESS",
+		"Nodejs",
 		"Package Control",
 		"Python Auto-Complete",
 		"Python PEP8 Autoformat",
+		"Require Node.js Modules Helper",
 		"RestructuredText Improved",
+		"Status Bar Time",
+		"SublimeHaskell",
 		"SublimeLinter",
-		"Theme - Phoenix",
 		"Theme - Spacegray"
 	]
 }
