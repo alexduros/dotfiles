@@ -1,1 +1,26 @@
-/Users/alexandre/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"Better CoffeeScript",
+		"Coffee Formatter",
+		"CoffeeLint",
+		"Drupal",
+		"EJS",
+		"GitGutter",
+		"Handlebars",
+		"JSON Reindent",
+		"JSONLint",
+		"LESS",
+		"Nodejs",
+		"Package Control",
+		"Python Auto-Complete",
+		"Python PEP8 Autoformat",
+		"Require Node.js Modules Helper",
+		"SFTP",
+		"Status Bar Time",
+		"SublimeGDB",
+		"SublimeHaskell",
+		"Theme - Phoenix"
+	]
+}
