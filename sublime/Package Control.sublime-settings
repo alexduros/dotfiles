@@ -2,25 +2,20 @@
 	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
-		"Better CoffeeScript",
-		"Coffee Formatter",
-		"CoffeeLint",
-		"Drupal",
 		"EJS",
+		"Floobits",
+		"Git",
 		"GitGutter",
-		"Handlebars",
+		"GoSublime",
+		"Http Requester",
 		"JSON Reindent",
-		"JSONLint",
-		"LESS",
-		"Nodejs",
+		"knockdown",
 		"Package Control",
 		"Python Auto-Complete",
 		"Python PEP8 Autoformat",
-		"Require Node.js Modules Helper",
-		"SFTP",
-		"Status Bar Time",
-		"SublimeGDB",
-		"SublimeHaskell",
-		"Theme - Phoenix"
+		"RestructuredText Improved",
+		"SublimeLinter",
+		"Theme - Phoenix",
+		"Theme - Spacegray"
 	]
 }
