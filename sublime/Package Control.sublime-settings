@@ -6,7 +6,6 @@
 		"Floobits",
 		"Git",
 		"GitGutter",
-		"GoSublime",
 		"JSON Reindent",
 		"LESS",
 		"Nodejs",
@@ -16,6 +15,7 @@
 		"Require Node.js Modules Helper",
 		"RestructuredText Improved",
 		"Status Bar Time",
+		"SublimeGDB",
 		"SublimeHaskell",
 		"SublimeLinter",
 		"Theme - Spacegray"
