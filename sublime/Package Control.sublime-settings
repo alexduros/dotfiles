@@ -7,7 +7,11 @@
 		"Git",
 		"GitGutter",
 		"GoSublime",
+		"Http Requester",
+		"Indent XML",
+		"JsFormat",
 		"JSON Reindent",
+		"knockdown",
 		"LESS",
 		"Nodejs",
 		"Package Control",
@@ -18,6 +22,8 @@
 		"Status Bar Time",
 		"SublimeHaskell",
 		"SublimeLinter",
-		"Theme - Spacegray"
+		"Theme - Phoenix",
+		"Theme - Spacegray",
+		"xml2json"
 	]
 }
