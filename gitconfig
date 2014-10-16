@@ -65,7 +65,7 @@
     default = current
 [core]
     whitespace = trailing-space,space-before-tab
-    editor = vim -f
+    editor = vim
     excludesfile = ~/.gitignore_global
     pager = less -c
 [rebase]
