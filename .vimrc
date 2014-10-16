@@ -50,16 +50,7 @@ set ignorecase
 set smartcase
 
 " Automatic formatting
-autocmd BufWritePre *.rb :%s/\s\+$//e
-autocmd BufWritePre *.go :%s/\s\+$//e
-autocmd BufWritePre *.haml :%s/\s\+$//e
-autocmd BufWritePre *.html :%s/\s\+$//e
-autocmd BufWritePre *.scss :%s/\s\+$//e
-autocmd BufWritePre *.slim :%s/\s\+$//e
-autocmd BufWritePre *.py :%s/\s\+$//e
-autocmd BufWritePre *.css :%s/\s\+$//e
-autocmd BufWritePre *.js :%s/\s\+$//e
-autocmd BufWritePre *.md :%s/\s\+$//e
+autocmd BufWritePre * :%s/\s\+$//e
 
 au BufNewFile * set noeol
 au BufRead,BufNewFile *.go set filetype=go
@@ -112,8 +103,8 @@ let g:syntastic_ruby_exec = '~/.rvm/rubies/ruby-2.0.0-p0/bin/ruby'
 " CtrlP
 nnoremap <silent> t :CtrlP<cr>
 let g:ctrlp_by_filename = 1
-let g:ctrlp_max_files = 600
-let g:ctrlp_max_depth = 5
+let g:ctrlp_max_files = 1000
+let g:ctrlp_max_depth = 7
 let g:ctrlp_working_path_mode = 'rw'
 
 " Switch between splits
@@ -130,3 +121,10 @@ command -nargs=0 Quit :qa!
 
 " JSON Formatting command
 command! FormatJSON %!python -m json.tool
+
+" Github comments
+let g:github_user = 'alexduros'
+let g:github_comment_open_browser = 1
+
+" Ignoring some files
+set wildignore+=*tmp/*,.*so,*.pyc,*.pyo,*.tgz,*.tar.gz
